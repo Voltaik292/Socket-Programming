@@ -1,15 +1,16 @@
 # Socket Programming
 
-
+---
 
 ## Team Members
 
-| Name |
+
 |---|
 | Abdulrahman Sawalmeh |
 | Kareem Hamza |
 | Sameh Abu-Latifeh |
 
+---
 
 ## Project Overview
 
@@ -29,7 +30,10 @@ All tasks are implemented in Python using only the standard library. No third-pa
 T045_Project1/
 │
 ├── README.md
-├── T045_Report.pdf
+│
+├── docs/
+│   ├── T045_Report.pdf          ← full project report
+│   └── ProjectSpecifcations.pdf ← original project specification
 │
 ├── Task1/
 │   └── NetworksTask1.pcapng
@@ -60,7 +64,7 @@ T045_Project1/
 
 ## Task 1 – Network Commands & Wireshark
 
-No code to run. All results are documented in `T045_Report.pdf`.
+No code to run. All results are documented in `docs/T045_Report.pdf`.
 
 The Wireshark DNS capture file is located at:
 ```
@@ -219,13 +223,14 @@ No external packages are required. The following Python standard library modules
 
 ---
 
-## Report
+## Docs
 
-The full project report is available at the root of this repository:
-```
-T045_Report.pdf
-```
-It includes theory, procedure, screenshots, flowcharts, test results, and a team contribution chart for all three tasks.
+All project documentation is in the `docs/` folder:
+
+| File | Description |
+|---|---|
+| `docs/T045_Report.pdf` | Full project report — theory, procedure, screenshots, flowcharts, test results, and team contribution chart |
+| `docs/Project1.pdf` | Original project specification issued by the instructor |
 
 ---
 
