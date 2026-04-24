@@ -5,10 +5,10 @@
 ## Team Members
 
 
-|---|
-| Abdulrahman Sawalmeh |
-| Kareem Hamza |
-| Sameh Abu-Latifeh |
+
+- Abdulrahman Sawalmeh
+- Kareem Hamza
+- Sameh Abu-Latifeh
 
 ---
 
