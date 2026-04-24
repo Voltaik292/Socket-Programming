@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENCS3320 - نظام طلب الملفات</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="request_styles.css">
+  <link rel="icon" href="images/ENCS3320.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="mySite_1221574_en.html" class="lang-switch" title="تبديل إلى الإنجليزية">English</a>
+    <h1>ENCS3320 - نظام طلب ملفات الشبكات</h1>
+  </header>
+
+  <section class="request-section">
+    <h2>طلب ملفات الشبكات</h2>
+
+    <form id="fileRequestForm" class="request-form" action="/request-file" method="GET">
+      <div class="form-group">
+        <label for="filename">أدخل اسم الملف الذي تبحث عنه:</label>
+        <input type="text" id="filename" name="filename" placeholder="مثال: NetworkFirewall.png أوNetworkAttacks.mp4" required>
+      </div>
+
+      <div class="file-type-selector">
+        <label class="file-type-option">
+          <input type="radio" name="fileType" value="image" checked>
+          <span class="radio-custom"></span>
+          <span class="file-type-label">صورة</span>
+        </label>
+        <label class="file-type-option">
+          <input type="radio" name="fileType" value="video">
+          <span class="radio-custom"></span>
+          <span class="file-type-label">فيديو</span>
+        </label>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">طلب الملف</button>
+      </div>
+    </form>
+
+    <div class="instructions">
+      <h3>كيف يعمل النظام:</h3>
+      <ul>
+        <li>أدخل اسم ملف الصورة أو الفيديو الذي تريده (مثال: "NetworkFirewall.png" أو "NetworkAttacks.mp4")</li>
+        <li>اختر ما إذا كنت تبحث عن صورة أو فيديو</li>
+        <li>إذا كان الملف موجودًا على الخادم، سيتم عرضه.</li>
+        <li>إذا لم يكن الملف موجودًا، سيتم توجيهك إلى نتائج بحث جوجل لصور أو فيديوهات مشابهة</li>
+        <li>طلبات الصور توجه إلى بحث صور جوجل</li>
+        <li>طلبات الفيديو توجه إلى بحث فيديوهات جوجل</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="links">
+    <h2>موارد</h2>
+    <ul>
+      <li><a href="main_ar.html" target="_blank">العودة للصفحة الرئيسية</a></li>
+      <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">موقع الكتاب الجامعي</a></li>
+    </ul>
+  </section>
+</body>
+</html>

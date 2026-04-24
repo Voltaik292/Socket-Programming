@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENCS3320 - File Request</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="request_styles.css">
+  <link rel="icon" href="images/ENCS3320.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="mySite_1221574_ar.html" class="lang-switch" title="Switch to Arabic">العربية</a>
+    <h1>ENCS3320 - File Request System</h1>
+  </header>
+
+  <section class="request-section">
+    <h2>Request Networking Files</h2>
+
+    <form id="fileRequestForm" class="request-form" action="/request-file" method="GET">
+      <div class="form-group">
+        <label for="filename">Enter the filename you're looking for:</label>
+        <input type="text" id="filename" name="filename" placeholder="e.g., NetworkFirewall.png or NetworkAttacks.mp4" required>
+      </div>
+
+      <div class="file-type-selector">
+        <label class="file-type-option">
+          <input type="radio" name="fileType" value="image" checked>
+          <span class="radio-custom"></span>
+          <span class="file-type-label">Image</span>
+        </label>
+        <label class="file-type-option">
+          <input type="radio" name="fileType" value="video">
+          <span class="radio-custom"></span>
+          <span class="file-type-label">Video</span>
+        </label>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Request File</button>
+      </div>
+    </form>
+
+    <div class="instructions">
+      <h3>How it works:</h3>
+      <ul>
+        <li>Enter the name of the image or video file you want (e.g., "NetworkFirewall.png" or "NetworkAttacks.mp4")</li>
+        <li>Select whether you're searching for an image or video</li>
+        <li>If the file exists on our server, it will be displayed.</li>
+        <li>If the file doesn't exist, you'll be redirected to Google search results for similar images or videos</li>
+        <li>Image requests redirect to Google Images search</li>
+        <li>Video requests redirect to Google Videos search</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="links">
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="main_en.html" target="_blank">Back to Main Page</a></li>
+      <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">Textbook Website</a></li>
+    </ul>
+  </section>
+</body>
+</html>

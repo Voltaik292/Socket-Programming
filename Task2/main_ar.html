@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="color: red;">ENCS3320-خادم الويب</title>
+  <link rel="icon" href="images/ENCS3320.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="main_en.html" class="lang-switch" title="تبديل إلى الإنجليزية">English</a>
+    <h1>مرحبًا بكم في ENCS3320 - خادم ويب لشبكات الحاسوب</h1>
+  </header>
+
+  <!-- Team Members Section -->
+  <section class="team-section">
+    <h2>فريقنا</h2>
+    <div class="team-container">
+      <!-- Member 1 -->
+      <div class="member-box">
+        <div class="img-container">
+          <img src="images/Member_image.png" alt="عبدالرحمن سوالمة">
+        </div>
+        <h3>عبدالرحمن سوالمة</h3>
+        <p class="id">الرقم الجامعي: 1221574</p>
+        <p>مرحبًا، أنا عبدالرحمن سوالمة. طالب هندسة حاسوب في السنة الثالثة في جامعة بيرزيت. لدي خبرة جيدة في لغات البرمجة مثل C و Java و Python، مع معرفة أساسية في HTML و CSS و JavaScript و Bash. أستمتع بالعمل على أنظمة قوية وفعالة تعمل خلف الكواليس، وهذا سبب تخصصي في الشبكات وتطوير الواجهات الخلفية.</p>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="member-box">
+        <div class="img-container">
+          <img src="images/Member_image.png" alt="كريم حمزة">
+        </div>
+        <h3>كريم حمزة</h3>
+        <p class="id">الرقم الجامعي: 1220708</p>
+        <p>مرحبًا، اسمي كريم حمزة، أنا طالب في السنة الثالثة في هندسة الحاسوب بجامعة بيرزيت. أمتلك معرفة واسعة في مجموعة من لغات البرمجة مثل C، Java، Shell Script، وPython، بالإضافة إلى لغات وصف الأجهزة مثل Verilog ولغات المستوى المنخفض مثل لغة التجميع ARM. أحب أن أكون مبرمجًا متعدد المهارات، وأمتلك القدرة على العمل في أي مجال يتم تكليفي به، وأستفيد من المعرفة التي اكتسبتها للوصول إلى أقصى إمكانياتي.</p>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="member-box">
+        <div class="img-container">
+          <img src="images/Member_image.png" alt="سامح ابو لطيفة">
+        </div>
+        <h3>سامح ابو لطيفة</h3>
+        <p class="id">الرقم الجامعي: 1220257</p>
+        <p>اسمي سامح أبو لطيفة، عمري 20 عامًا، وأدرس حاليًا هندسة الحاسوب. لدي اهتمام كبير بالمجالات المتعلقة بتخصصي، وخاصة الذكاء الاصطناعي، وأتطلع إلى تعزيز مهاراتي فيه. أعمل باستمرار على اكتساب الخبرة في مختلف جوانب تخصصي لبناء أساس قوي لمسيرتي المهنية المستقبلية.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Networks Under Attack Section -->
+  <section class="attack-section">
+    <h2>هجمات الشبكات</h2>
+    <div class="attack-images">
+      <img src="images/DDOS_Attack.png" alt="هجوم حجب الخدمة">
+      <img src="images/ip_spoofing.jpg" alt="انتحال عنوان IP">
+      <img src="images/NetworkFirewall.png" alt="جدار حماية الشبكة">
+    </div>
+    <div class="text-content">
+      <p>الإنترنت، على الرغم من أهميته في الحياة الحديثة، معرض لهجمات من قبل جهات خبيثة تستغل نقاط الضعف في الشبكات والأجهزة. تشمل التهديدات الشائعة <strong>البرمجيات الخبيثة</strong> مثل الفيروسات وبرامج التجسس، التي يمكن أن تصيب الأجهزة، أو تسرق البيانات، أو تحولها إلى <strong>شبكات روبوتية</strong> لهجمات واسعة النطاق مثل <strong>هجمات حجب الخدمة الموزعة (DDoS)</strong>. هذه الهجمات تثقل كاهل الخوادم أو البنية التحتية، مما يجعلها غير قابلة للاستخدام.</p>
+
+      <p>خطر رئيسي آخر هو <strong>تنصت الحزم</strong>، حيث يعترض المهاجمون البيانات غير المشفرة المنقولة عبر الشبكات، خاصة في البيئات اللاسلكية، لسرقة معلومات حساسة مثل كلمات المرور أو الرسائل الخاصة. بالإضافة إلى ذلك، يسمح <strong>انتحال عنوان IP</strong> للمهاجمين بتزوير عناوين مصدر الحزم، وانتحال هويات جهات موثوقة لخداع الأنظمة أو المستخدمين، مما يبرز الحاجة إلى آليات قوية <strong>لمصادقة النقاط الطرفية</strong>.</p>
+
+      <p>صمم الإنترنت في الأصل على افتراض بيئة موثوقة، مما جعله عرضة للخطر في بيئة اليوم التي تحتوي على مستخدمين وأجهزة غير موثوقة. يتطلب التصدي لهذه التهديدات تدابير أمنية قوية، بما في ذلك التشفير والمصادقة وهندسة الشبكات المرنة، للدفاع ضد الهجمات المتطورة.</p>
+
+      <!-- Video Container -->
+      <div class="video-container">
+        <video width="640" height="360" controls>
+          <source src="Videos/NetworkAttacks.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+      </div>
+    </div>
+
+    <!-- Combined Lists Section -->
+    <div class="combined-lists">
+      <div class="attack-types">
+        <h3>أنواع الهجمات الشائعة:</h3>
+        <ul>
+          <li>البرمجيات الخبيثة (فيروسات، برامج تجسس)</li>
+          <li>هجمات حجب الخدمة</li>
+          <li>تنصت الحزم</li>
+          <li>انتحال عنوان IP</li>
+        </ul>
+      </div>
+
+      <div class="defensive-measures">
+        <h3>إجراءات دفاعية:</h3>
+        <ol>
+          <li>استخدم التشفير (مثل HTTPS، VPN)</li>
+          <li>نفذ مصادقة النقاط الطرفية</li>
+          <li>نشر جدران الحماية وأنظمة كشف التسلل</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- External Links Section -->
+  <section class="links">
+    <h2>موارد</h2>
+    <ul>
+      <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">موقع الكتاب</a></li>
+      <li><a href="https://www.birzeit.edu/" target="_blank">موقع جامعة بيرزيت </a></li>
+      <li><a href="mySite_1221574_ar.html" target="_blank">طلب ملفات (mySite_1221574_ar.html)</a></li>
+    </ul>
+  </section>
+</body>
+</html>
